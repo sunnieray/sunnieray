@@ -1,0 +1,14 @@
+* {
+  text-decoration: none;
+  list-style: none;
+  color: black
+}
+
+html {
+  font-family: "Mansalva", cursive;
+  font-family: "Anton", sans-serif;
+}
+
+h1 {
+  font-family: "Lobster", cursive;
+}
