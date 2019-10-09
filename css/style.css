@@ -3,16 +3,70 @@
   list-style: none;
 }
 
+:root {
+  --primary:gray4;
+  --secondary: #03DAC6;
+  /* pick out back ground color 
+  --background: 
+  --neutral:
+--accent:
+  / color pallet
+  set all colors as variables */
+}
+
 body {
+  background-color: #000200;
   font-family: "Mansalva", cursive;
   font-family: "Anton", sans-serif;
   color: black
 }
 
 h1 {
+  color: var(--primary);
   font-family: "Lobster", cursive;
+  font-size: 10mm
 }
+
+
 a {
 text-decoration: none;
-color: green
+color: gray;
 }
+a:hover {
+  background-color: gray;
+  color: aqua;
+  text-decoration: none;
+}
+
+body {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+  align-items: center;
+  text-align: center;
+}
+
+nav {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+
+}
+
+img{
+  width: 1450px;
+  margin: 0%;
+  padding: 0%;
+}
+
+footer > a:hover {
+ background-color: black;
+
+}
+
+
+
+
