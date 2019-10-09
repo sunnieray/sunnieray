@@ -1,14 +1,18 @@
 * {
   text-decoration: none;
   list-style: none;
-  color: black
 }
 
-html {
+body {
   font-family: "Mansalva", cursive;
   font-family: "Anton", sans-serif;
+  color: black
 }
 
 h1 {
   font-family: "Lobster", cursive;
+}
+a {
+text-decoration: none;
+color: green
 }
