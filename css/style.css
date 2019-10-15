@@ -4,69 +4,58 @@
 }
 
 :root {
-  --primary:gray4;
-  --secondary: #03DAC6;
-  /* pick out back ground color 
-  --background: 
-  --neutral:
---accent:
-  / color pallet
+  --primary: black;
+  --secondary: #7f90a5;
+  --neutral: #afbfbf;
+  --accent: #202426;
+  /* color pallet
   set all colors as variables */
 }
 
+nav {
+  font-size: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
 body {
-  background-color: #000200;
+  color: var(--primary);
   font-family: "Mansalva", cursive;
   font-family: "Anton", sans-serif;
-  color: black
-}
-
-h1 {
-  color: var(--primary);
-  font-family: "Lobster", cursive;
-  font-size: 10mm
-}
-
-
-a {
-text-decoration: none;
-color: gray;
-}
-a:hover {
-  background-color: gray;
-  color: aqua;
-  text-decoration: none;
-}
-
-body {
   font-size: 20px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   padding: 50px;
-  align-items: center;
+  align-items: flex-start;
   text-align: center;
+  background-color: var(--primary);
 }
 
-nav {
-  font-size: 20px;
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
-
-}
-
-img{
+img {
   width: 1450px;
   margin: 0%;
   padding: 0%;
 }
 
-footer > a:hover {
- background-color: black;
-
+h1 {
+  color: var(--accent);
+  font-family: "Lobster", cursive;
+  font-size: 10mm;
 }
 
+a {
+  text-decoration: none;
+  color: gray;
+  color: var(--accent);
+  text-decoration: none;
+  
+}
 
+footer > a:hover {
+  background-color: var(--primary);
+  color: var(--secondary);
 
-
+  text-decoration: none;
+}
