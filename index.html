@@ -4,63 +4,61 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://kit.fontawesome.com/0be2a96f96.js"
+    crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Anton|Lobster|Mansalva&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="css/style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Anton|Lobster|Mansalva&display=swap" rel="stylesheet"
-    />
-    <script
-      src="https://kit.fontawesome.com/0be2a96f96.js"
-      crossorigin="anonymous"
-    ></script>
 
     <title>Document</title>
+
   </head>
-
-  <header>
-    <i class="fas fa-sun"></i>
-
-  </header>
   <body>
+    <header>
+        <figure>
+        <img src="https://freshbakin.com/wp-content/uploads/2016/05/15-wanderer-digital-art-by-android-jones.jpg" alt="Android Jones" >
+        </figure>
+   </header>
     <!-- navigation links -->
     <nav>
-      <ul class="nav nav-tabs">
-        <li class="nav-item ">
-          <a class="nav-link active" href="blog/index.html">blog</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact/index.html">contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about/index.html">about</a>
-        </li>
+      <!-- you can have two classes on a variable just add a space between them -->
+      <!-- use is-hidden to scale the page to fit different screen sizes -->
+        <span class="fas fa-bars is-hidden--tablet"></span>
+      <ul id ="is-hidden--mobile is-shown--tablet">
+        <li> <a href="blog/index.html">blog</a></li>
+        <li> <a href="contact/index.html">contact</a></li>
+        <li> <a href="about/index.html">about</a></li>
       </ul>
     </nav>
 
     <main>
-      <!-- image and social media links -->
+        <div class="hero">
+            <!-- <a href="#">Filler link</a> -->
+        </div>
 
-      <div>
-        <img src="https://freshbakin.com/wp-content/uploads/2016/05/15-wanderer-digital-art-by-android-jones.jpg" alt="Android Jones" />
-    <h1>Android Jones Fan page</h1>
+        <div id="section-container">
+        <section>
+            <h2>My background</h2>
+            <p>I'm a Human</p>
+            <a href=""></a>
+        </section>
+        <section>
+                <h2>I love animals</h2>
+                <p>Just adopted two kiddens</p>
+                <a href=""></a>
+        </section>
+        <section>
+                <h2>Hobbies</h2>
+                <p>I love live music and Painting!</p>
+                <a href=""></a>
+        </section>
       </div>
-    </main>
-    <footer>
+        <!-- image and social media links -->
+      <div>
+          <!-- <img src="https://freshbakin.com/wp-content/uploads/2016/05/15-wanderer-digital-art-by-android-jones.jpg" alt="Android Jones" /> -->
         <i class="fas fa-link"></i>
         <a href="https://github.com/sunnieray/wednesday">My gitHub</a>
-      <script
-        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"
-      ></script>
-      <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"
-      ></script>
-      <script
-        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"
-      ></script>
-    </footer>
+      </div>
+    </main>
+    <footer>2019 Savvy Coders</footer>
   </body>
 </html>
