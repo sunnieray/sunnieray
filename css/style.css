@@ -1,3 +1,4 @@
+/* this code is built for mobile first */
 :root {
   --primary: black;
   --secondary: #7f90a5;
@@ -14,17 +15,31 @@ body {
   flex-direction: column;
   justify-content: space-between;
   padding: 50px;
-  text-align: center;
+  /* text-align: center; */
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+/* decorative section */
 .hero {
-  /* background-image: url("https://i.pinimg.com/originals/48/ca/0e/48ca0ebb051eae2e950400e6b842108e.png"); */
+
   height: 20vh;
+   /* background-size: cover will stretch the image to fit the resolution, 
+    background-size: contain will not crop the image */
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* these style the link on the decorative hero section */
+.btn { 
+    background-color: pink; 
+    text-decoration: none;
+    padding: 0.5rem;
+    color: var(--neutral);
+    border-radius: 10%; 
 }
 
 h3 {
@@ -46,11 +61,19 @@ p {
 
 ul {
   list-style: none;
-}
-
-a {
   text-decoration: none;
 }
+
+/* this resizes and positions the hamburger icon for mobile view navigation expansion */
+nav .fas {
+  font-size: 1.8em; /* 48px - Gives a nice 'clickable' target as per: https://material.io/design/layout/spacing-methods.html#touch-targets */
+  position: absolute;
+  transform: translateX(90px);
+}
+a { 
+ text-decoration: none;
+ color: var(--primary);
+} 
 
 nav {
   min-height: 72px;
@@ -58,6 +81,9 @@ nav {
 
 nav ul {
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 nav li {
@@ -67,19 +93,29 @@ nav li {
 footer {
   display: flex;
   justify-content: center;
+  padding: 2rem;
 }
+ .fa-link { 
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+} 
 
-nav .fas {
-  font-size: 1.8em; /* 48px - Gives a nice 'clickable' target as per: https://material.io/design/layout/spacing-methods.html#touch-targets */
-  position: absolute;
-  transform: translateX(90px);
-}
+ .contactSubmit {
+  background-color: pink; 
+  text-decoration: none;
+  padding: 0.5rem;
+  color: var(--neutral);
+  border-radius: 10%; 
+} 
 
+
+/* hide nav links, class will be removed later with JS */
 .is-hidden--mobile {
   font-size: 0;
   height: 0;
 }
-
+/* tablet screens */
 @media screen and (min-width: 768px) {
   nav ul {
     display: flex;
@@ -94,22 +130,34 @@ nav .fas {
     font-size: initial;
     height: 100%; /* Take as much height as needed within the parent. */
   }
-  @media screen and (min-width: px) {
+  /* full size screen */
+  @media screen and (min-width:1024px px) {
 
-    header {
-      flex-direction: column;
+    header { 
+      flex-direction: row;
       margin-right: 1em;
       padding: .5em;
+  }
 
-    }
+  .hero {
+      height: 40vh;
+  }
 
-    .hero {
-    height: 40vh;
-    }
-    .section-container {
-      display: flex;
-    }
+  .section-container {
+      display: flex; 
+  }
+
+  section {
+      flex-direction: column;
+  }
+
+  .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start
 }
+
 
 
 
