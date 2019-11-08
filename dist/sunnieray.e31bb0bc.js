@@ -152,7 +152,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _default = function _default() {
-  return " \n<nav>\n<span class=\"fas fa-bars is-hidden--tablet\"></span>\n<ul class=\"is-hidden--mobile is-shown--tablet\">\n  <li><a href=\"blog/blog.html\">Blog</a></li>\n  <li><a href=\"contact/contact.html\">Contact</a></li>\n  <li><a href=\"about/about.html\">About</a></li>\n</ul>\n</nav>\n";
+  return " \n<nav>\n<span class=\"fas fa-bars is-hidden--tablet\"></span>\n<ul class=\"is-hidden--mobile is-shown--tablet\">\n  <li><a href=\"/blog/blog.html\">Blog</a></li>\n  <li><a href=\"../contact/contact.html\">Contact</a></li>\n  <li><a href=\"about/about.html\">About</a></li>\n</ul>\n</nav>\n";
 };
 
 exports.default = _default;
@@ -249,7 +249,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52054" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56931" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
