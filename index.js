@@ -5,25 +5,29 @@ const state = {
   heading: "",
   mainContent: `
 <main>
-  <div class="hero">
-    </div>
 
     <div id="section-container">
   <section>
-    <h2>My background</h2>
-    <p>I'm a Human</p>
-    <a href="#" class="btn section--btn"> Click to Learn More about my human experience</a>
+    <h3>My Coding Background</h3>
+    <p>My journey started as a desire to cut down on the time it took to do my daily job and grew into a passion to simplify life through technology. My self-guided learning started on Youtube and Udemy, from there I attended SavvyCoders Bootcamp!</p>
+    <a href="#" class="btn section--btn">Read my blog!</a href ="../blog/blog.html">
   </section>
   <section>
-    <h2>I love animals</h2>
-    <p>Just adopted two kiddens</p>
-    <a href="#" class="btn section--btn">Click for cute content</a>
+    <h3>Mission Statement</h3>
+    <p>My mission is to grow daily as a developer and help to move the web forward with creative Design and Development to deliver quality solutions that create value and competitive advantages.</p>
+    <a href="#" class="btn section--btn">See my projects!</a>
   </section>
   <section>
-    <h2>Hobbies</h2>
-    <p>I love live music and Painting!</p>
-    <a href="#" class="btn section--btn">Click for personal favorites</a>
+    <h3>My Coding Skills</h3>
+    <p>
+   HTML  
+   <BR>CSS
+   <BR>JavaScript
+   <BR>Agile Certified
+    </p>
+    <a href="#" class="btn section--btn">See My Certifications!</a>
   </section>
+  </div>
   </div>
 
     <div>

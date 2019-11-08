@@ -126,7 +126,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _default = function _default(st) {
-  return "\n<header>\n        <figure>\n        <img src=\"https://freshbakin.com/wp-content/uploads/2016/05/15-wanderer-digital-art-by-android-jones.jpg\" alt=\"Android Jones\">\n        </figure>\n        <h3>".concat(st.heading, "</h3>\n   </header>\n   ");
+  return "\n<header>\n        <figure>\n        <img src=\"https://s3.envato.com/files/229658888/Binary%20Code%20Background%20%2001_preview1.JPG\">\n        </figure>\n        <h3>".concat(st.heading, "</h3>\n   </header>\n   ");
 };
 
 exports.default = _default;
@@ -152,7 +152,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _default = function _default() {
-  return " <nav>\n  <span class=\"fas fa-bars is-hidden--tablet\"></span>\n<ul id =\"is-hidden--mobile is-shown--tablet\">\n  <li> <a href=\"blog/blog.html\">blog</a></li>\n  <li> <a href=\"contact/contact.html\">contact</a></li>\n  <li> <a href=\"about/about.html\">about</a></li>\n</ul>\n</nav>\n";
+  return " \n<nav>\n<span class=\"fas fa-bars is-hidden--tablet\"></span>\n<ul class=\"is-hidden--mobile is-shown--tablet\">\n  <li><a href=\"blog/blog.html\">Blog</a></li>\n  <li><a href=\"contact/contact.html\">Contact</a></li>\n  <li><a href=\"about/about.html\">About</a></li>\n</ul>\n</nav>\n";
 };
 
 exports.default = _default;
@@ -165,7 +165,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _default = function _default() {
-  return "\n<footer>2019 Savvy Coders</footer>\n";
+  return "\n<footer>&copy;2019</footer>\n";
 };
 
 exports.default = _default;
@@ -217,7 +217,7 @@ var _components = require("./components");
 var state = {
   home: {
     heading: "",
-    mainContent: "\n<main>\n  <div class=\"hero\">\n    </div>\n\n    <div id=\"section-container\">\n  <section>\n    <h2>My background</h2>\n    <p>I'm a Human</p>\n    <a href=\"#\" class=\"btn section--btn\"> Click to Learn More about my human experience</a>\n  </section>\n  <section>\n    <h2>I love animals</h2>\n    <p>Just adopted two kiddens</p>\n    <a href=\"#\" class=\"btn section--btn\">Click for cute content</a>\n  </section>\n  <section>\n    <h2>Hobbies</h2>\n    <p>I love live music and Painting!</p>\n    <a href=\"#\" class=\"btn section--btn\">Click for personal favorites</a>\n  </section>\n  </div>\n\n    <div>\n    <i class=\"fas fa-link\"></i>\n    <a href=\"https://github.com/sunnieray/wednesday\">My gitHub</a>\n    </div>\n</main>"
+    mainContent: "\n<main>\n\n    <div id=\"section-container\">\n  <section>\n    <h3>My Coding Background</h3>\n    <p>My journey started as a desire to cut down on the time it took to do my daily job and grew into a passion to simplify life through technology. My self-guided learning started on Youtube and Udemy, from there I attended SavvyCoders Bootcamp!</p>\n    <a href=\"#\" class=\"btn section--btn\">Read my blog!</a href =\"../blog/blog.html\">\n  </section>\n  <section>\n    <h3>Mission Statement</h3>\n    <p>My mission is to grow daily as a developer and help to move the web forward with creative Design and Development to deliver quality solutions that create value and competitive advantages.</p>\n    <a href=\"#\" class=\"btn section--btn\">See my projects!</a>\n  </section>\n  <section>\n    <h3>My Coding Skills</h3>\n    <p>\n   HTML  \n   <BR>CSS\n   <BR>JavaScript\n   <BR>Agile Certified\n    </p>\n    <a href=\"#\" class=\"btn section--btn\">See My Certifications!</a>\n  </section>\n  </div>\n  </div>\n\n    <div>\n    <i class=\"fas fa-link\"></i>\n    <a href=\"https://github.com/sunnieray/wednesday\">My gitHub</a>\n    </div>\n</main>"
   }
 };
 document.querySelector('#root').innerHTML = "\n".concat((0, _components.header)(state.home), "\n").concat((0, _components.nav)(), "\n").concat((0, _components.main)(state.home), "\n").concat((0, _components.footer)(), " \n");

@@ -1,3 +1,3 @@
 export default () => `
-<footer>2019 Savvy Coders</footer>
+<footer>&copy;2019</footer>
 `
